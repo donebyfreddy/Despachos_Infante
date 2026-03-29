@@ -57,13 +57,13 @@ function Navigation() {
         </div>
 
         <a
-          href="tel:+34912345678"
+          href="tel:+34934534192"
           className="hidden lg:flex items-center gap-2 text-[#c9a962] text-sm tracking-wider hover:text-[#e8e4dc] transition-colors"
         >
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-          </svg>
-          +34 912 345 678
+            </svg>
+          +34 934 53 41 92
         </a>
 
         {/* Mobile Menu Button */}
@@ -100,13 +100,13 @@ function Navigation() {
             </a>
           ))}
           <a
-            href="tel:+34912345678"
+            href="tel:+34934534192"
             className="flex items-center gap-2 text-[#c9a962] text-sm tracking-wider pt-4 border-t border-[#c9a962]/10"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
             </svg>
-            +34 912 345 678
+            +34 934 53 41 92
           </a>
         </div>
       </div>
@@ -151,15 +151,20 @@ function HeroSection() {
         >
           Despacho
           <br />
-          <span className="text-[#c9a962] italic">Infante</span>
+          <span className="text-[#c9a962] italic">Infante Abogados</span>
         </h1>
 
         <p
-          className="max-w-2xl mx-auto text-lg md:text-xl text-[#a8a49c] mb-12 font-body leading-relaxed animate-slide-up"
+          className="max-w-2xl mx-auto text-lg md:text-xl text-[#a8a49c] mb-4 font-body leading-relaxed animate-slide-up"
           style={{ animationDelay: '0.6s' }}
         >
-          Defendemos sus derechos con la dedicación y excelencia que merece.
-          Más de 30 años de experiencia en derecho penal, civil y mercantil.
+          Expertos Legales de Confianza en el Corazón de Barcelona
+        </p>
+        <p
+          className="max-w-2xl mx-auto text-base md:text-lg text-[#c9a962] mb-12 font-body leading-relaxed animate-slide-up"
+          style={{ animationDelay: '0.7s' }}
+        >
+          4.610+ clientes satisfechos | Personalizado, Profesional, Orientado a Resultados
         </p>
 
         <div
@@ -170,16 +175,19 @@ function HeroSection() {
             href="#contacto"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#c9a962] text-[#0a0a0a] text-sm tracking-widest uppercase font-medium hover:bg-[#b8984e] transition-all duration-300"
           >
-            Consulta Gratuita
+            Solicitar Consulta
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </a>
           <a
-            href="#servicios"
+            href="tel:+34934534192"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-[#c9a962]/30 text-[#e8e4dc] text-sm tracking-widest uppercase hover:border-[#c9a962] hover:text-[#c9a962] transition-all duration-300"
           >
-            Nuestros Servicios
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+            </svg>
+            Llamar Ahora
           </a>
         </div>
       </div>
@@ -198,9 +206,9 @@ function HeroSection() {
 // Stats Section
 function StatsSection() {
   const stats = [
-    { number: "30+", label: "Años de Experiencia" },
+    { number: "4.610+", label: "Clientes Satisfechos" },
     { number: "95%", label: "Casos de Éxito" },
-    { number: "2,500+", label: "Clientes Satisfechos" },
+    { number: "30+", label: "Años de Experiencia" },
     { number: "15", label: "Abogados Expertos" },
   ];
 
@@ -265,10 +273,9 @@ function AboutSection() {
 
             <div className="space-y-6 text-[#a8a49c] leading-relaxed">
               <p>
-                Fundado en 1994, Despacho Infante se ha consolidado como uno de los bufetes
-                más prestigiosos de Madrid. Nuestra filosofía se basa en un compromiso
-                inquebrantable con la excelencia y la defensa rigurosa de los intereses
-                de nuestros clientes.
+                Despacho Infante Abogados se ha consolidado como uno de los bufetes más
+                prestigiosos de Barcelona, con una reputación construida sobre excelencia
+                jurídica y dedicación absoluta a la defensa de los derechos de nuestros clientes.
               </p>
               <p>
                 Contamos con un equipo de abogados altamente cualificados y especializados
@@ -277,17 +284,18 @@ function AboutSection() {
               </p>
               <p>
                 Nuestra reputación se ha construido sobre la base de resultados excepcionales,
-                la confidencialidad absoluta y una atención al cliente que supera las expectativas.
+                la confidencialidad absoluta, transparencia total y una atención al cliente
+                que supera las expectativas. Trabajamos con más de 4.610 clientes satisfechos.
               </p>
             </div>
 
             <div className="mt-10 flex flex-col sm:flex-row gap-8">
               <div>
-                <div className="font-display text-3xl text-[#c9a962] mb-1">1994</div>
-                <div className="text-sm text-[#a8a49c] tracking-wider uppercase">Año de Fundación</div>
+                <div className="font-display text-3xl text-[#c9a962] mb-1">30+</div>
+                <div className="text-sm text-[#a8a49c] tracking-wider uppercase">Años de Experiencia</div>
               </div>
               <div className="sm:border-l sm:border-[#c9a962]/20 sm:pl-8">
-                <div className="font-display text-3xl text-[#c9a962] mb-1">Madrid</div>
+                <div className="font-display text-3xl text-[#c9a962] mb-1">Barcelona</div>
                 <div className="text-sm text-[#a8a49c] tracking-wider uppercase">Sede Principal</div>
               </div>
             </div>
@@ -581,8 +589,8 @@ function ContactSection() {
                 <div>
                   <div className="text-[#e8e4dc] font-medium mb-1">Direccion</div>
                   <div className="text-[#a8a49c] text-sm">
-                    Paseo de la Castellana, 89<br />
-                    28046 Madrid, Espana
+                    C/ de Muntaner, 135 principal<br />
+                    Eixample, 08036 Barcelona, España
                   </div>
                 </div>
               </div>
@@ -596,8 +604,7 @@ function ContactSection() {
                 <div>
                   <div className="text-[#e8e4dc] font-medium mb-1">Telefono</div>
                   <div className="text-[#a8a49c] text-sm">
-                    +34 912 345 678<br />
-                    +34 600 123 456
+                    +34 934 53 41 92
                   </div>
                 </div>
               </div>
@@ -626,8 +633,8 @@ function ContactSection() {
                 <div>
                   <div className="text-[#e8e4dc] font-medium mb-1">Horario</div>
                   <div className="text-[#a8a49c] text-sm">
-                    Lunes - Viernes: 9:00 - 20:00<br />
-                    Sabados: 10:00 - 14:00
+                    Lunes - Viernes: 10:00 - 19:00<br />
+                    Cerrado Sábado y Domingo
                   </div>
                 </div>
               </div>
@@ -804,9 +811,9 @@ function Footer() {
           <div>
             <h4 className="font-display text-lg text-[#e8e4dc] mb-6">Contacto</h4>
             <ul className="space-y-3 text-[#a8a49c] text-sm">
-              <li>Paseo de la Castellana, 89</li>
-              <li>28046 Madrid, Espana</li>
-              <li className="pt-2">+34 912 345 678</li>
+              <li>C/ de Muntaner, 135 principal</li>
+              <li>Eixample, 08036 Barcelona, España</li>
+              <li className="pt-2">+34 934 53 41 92</li>
               <li>info@despachoinfante.es</li>
             </ul>
           </div>
