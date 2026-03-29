@@ -63,7 +63,7 @@ function Navigation() {
         </div>
 
         <a
-          href="tel:+34934534192"
+          href="tel:+34930523552"
           className={`hidden lg:flex items-center gap-2 text-sm tracking-wider transition-colors ${
             scrolled ? "text-[#c9a962] hover:text-[#1a1a1a]" : "text-white hover:text-[#c9a962]"
           }`}
@@ -71,7 +71,7 @@ function Navigation() {
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
             </svg>
-          +34 934 53 41 92
+          +34 930 523 552
         </a>
 
         {/* Mobile Menu Button */}
@@ -110,13 +110,13 @@ function Navigation() {
             </a>
           ))}
           <a
-            href="tel:+34934534192"
+            href="tel:+34930523552"
             className="flex items-center gap-2 text-[#c9a962] text-sm tracking-wider pt-4 border-t border-[#c9a962]/20"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
             </svg>
-            +34 934 53 41 92
+            +34 930 523 552
           </a>
         </div>
       </div>
@@ -187,7 +187,7 @@ function HeroSection() {
             </svg>
           </a>
           <a
-            href="tel:+34934534192"
+            href="tel:+34930523552"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-white/30 text-white text-sm tracking-widest uppercase hover:border-white hover:bg-white/10 transition-all duration-300"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -613,7 +613,7 @@ function ContactSection() {
                 <div>
                   <div className="text-[#e8e4dc] font-medium mb-1">Telefono</div>
                   <div className="text-[#a8a49c] text-sm">
-                    +34 934 53 41 92
+                    +34 930 523 552
                   </div>
                 </div>
               </div>
@@ -822,7 +822,7 @@ function Footer() {
             <ul className="space-y-3 text-[#a8a49c] text-sm">
               <li>C/ de Muntaner, 135 principal</li>
               <li>Eixample, 08036 Barcelona, España</li>
-              <li className="pt-2">+34 934 53 41 92</li>
+              <li className="pt-2">+34 930 523 552</li>
               <li>info@despachoinfante.es</li>
             </ul>
           </div>
