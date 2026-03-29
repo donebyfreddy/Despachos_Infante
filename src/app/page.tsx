@@ -37,7 +37,11 @@ function Navigation() {
             <span className="font-display text-[#c9a962] text-xl font-semibold">DI</span>
           </div>
           <div className="hidden sm:block">
-            <span className="font-display text-lg tracking-wider text-[#1a1a1a] group-hover:text-[#c9a962] transition-colors">
+            <span
+              className={`font-display text-lg tracking-wider transition-colors group-hover:text-[#c9a962] ${
+                scrolled ? "text-[#1a1a1a]" : "text-white"
+              }`}
+            >
               DESPACHO INFANTE
             </span>
           </div>
@@ -49,7 +53,9 @@ function Navigation() {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm tracking-widest uppercase text-[#666] hover:text-[#c9a962] transition-colors duration-300 hover-gold-line pb-1"
+              className={`text-sm tracking-widest uppercase transition-colors duration-300 hover:text-[#c9a962] hover-gold-line pb-1 ${
+                scrolled ? "text-[#1a1a1a]" : "text-white"
+              }`}
             >
               {link.label}
             </a>
@@ -58,7 +64,9 @@ function Navigation() {
 
         <a
           href="tel:+34934534192"
-          className="hidden lg:flex items-center gap-2 text-[#c9a962] text-sm tracking-wider hover:text-[#1a1a1a] transition-colors"
+          className={`hidden lg:flex items-center gap-2 text-sm tracking-wider transition-colors ${
+            scrolled ? "text-[#c9a962] hover:text-[#1a1a1a]" : "text-white hover:text-[#c9a962]"
+          }`}
         >
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -69,7 +77,9 @@ function Navigation() {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="lg:hidden p-2 text-[#1a1a1a] hover:text-[#c9a962] transition-colors"
+          className={`lg:hidden p-2 transition-colors hover:text-[#c9a962] ${
+            scrolled || mobileMenuOpen ? "text-[#1a1a1a]" : "text-white"
+          }`}
           type="button"
         >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -821,7 +831,7 @@ function Footer() {
         {/* Bottom */}
         <div className="pt-8 border-t border-[#1a1a1a] flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-[#a8a49c]">
-            2024 Despacho Infante. Todos los derechos reservados.
+            2026 Despacho Infante. Todos los derechos reservados.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-xs text-[#a8a49c] hover:text-[#c9a962] transition-colors">
